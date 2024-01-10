@@ -1,0 +1,53 @@
+# Document de Conception Technique (TCD)
+
+## Composant: Microservice de Gestion des Utilisateurs
+
+### Objectif
+Le microservice de gestion des utilisateurs gère les fonctionnalités liées aux utilisateurs tels que l'inscription, la connexion et la gestion des profils.
+
+### Technologies Utilisées
+- Langage: Python 3.8
+- Framework: Flask
+- Base de Données: MySQL
+- Système d'Authentification: OAuth2
+
+### Architecture
+
+#### Endpoints
+1. `POST /users/register`: Enregistre un nouvel utilisateur.
+   - Reçoit les données de l'utilisateur, les valide, puis les enregistre dans la base de données.
+
+2. `POST /users/login`: Authentifie un utilisateur existant.
+   - Vérifie les informations d'identification et génère un token d'accès.
+
+3. `GET /users/profile`: Récupère le profil de l'utilisateur actuellement authentifié.
+   - Utilise le token d'accès pour valider l'identité de l'utilisateur.
+
+#### Base de Données
+- Table "users" stockant les informations des utilisateurs (id, nom, email, mot de passe hashé, etc.).
+
+### Flux de Données
+
+1. **Inscription d'Utilisateur:**
+   - Données d'entrée: Nom, email, mot de passe.
+   - Traitement: Validation des données, hachage du mot de passe, insertion dans la base de données.
+
+2. **Connexion d'Utilisateur:**
+   - Données d'entrée: Email, mot de passe.
+   - Traitement: Vérification des informations d'identification, génération du token d'accès.
+
+3. **Récupération de Profil:**
+   - Données d'entrée: Token d'accès.
+   - Traitement: Validation du token, récupération des informations utilisateur.
+
+### Sécurité
+- Utilisation d'OAuth2 pour l'authentification sécurisée.
+- Stockage sécurisé des mots de passe avec hachage.
+
+### Évolutivité
+- Possibilité d'évolutivité horizontale grâce à la conception de microservices.
+
+### Points de Vigilance
+- Gestion des erreurs pour assurer une expérience utilisateur robuste.
+- Surveillance des performances pour maintenir des temps de réponse optimaux.
+
