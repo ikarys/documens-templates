@@ -1,0 +1,19 @@
+= ADR-002: Convention de Nommage DNS
+
+- status: proposed
+- deciders: [Liste des personnes impliquées dans la décision]
+- date: [Date de la dernière mise à jour, format YYYY-MM-DD]
+
+== Options Considérées
+1. `domain.com/environnement/module/produit`.
+2. `environnement.domain.com/produit/module`.
+3. `produit.environnement.module.domain.com`.
+4. `environnement-module-produit.domain.com`.
+
+== Décision
+La convention de nommage DNS sélectionnée est `environment.module.produit.domain.com`. Cette décision est proposée pour assurer une hiérarchie claire et une compréhension facilitée des noms de domaine.
+
+== Conséquences (potentielles)
+- La convention choisie influencera la clarté et la cohérence des noms de domaine au sein du projet.
+- L'impact sur la facilité de gestion et la compréhension des services sera évalué.
+
