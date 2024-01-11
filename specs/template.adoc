@@ -1,0 +1,29 @@
+= Specifications Document
+
+== Introduction
+This section should introduce the project and provide a brief explanation of its context and objectives.
+
+== Project Overview
+In this section, provide an overview of the project, including its scope and overall goals.
+
+== Features
+List the main features that the software must provide here. Briefly describe each feature.
+
+== Technical Requirements
+Specify the technical requirements for the software, including programming languages, databases, etc.
+
+== Constraints
+Identify any constraints, such as tight deadlines, limited resources, or other factors that could impact the project.
+
+== Security
+Explain the security requirements for the software, such as authentication, data protection, etc.
+
+== Tests Plan
+Describe the tests that the software will need to pass to ensure its quality. List specific test cases.
+
+== Phases
+Indicate the project phase that this requirements document covers and mention that future updates will be made through merge requests.
+
+== Appendices
+Include any additional information needed for the requirements document, such as device data or information about anomalies.
+
