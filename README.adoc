@@ -1,8 +1,16 @@
+= Document types
 
+== Documents
 
-ADR:
-source : https://github.com/joelparkerhenderson/architecture-decision-record
+* xref:adr/index.adoc[Architecture Decision Record]
+* xref:tad/index.adoc[Technical Architecture Document]
+* xref:specs/index.adoc[Specifications Document]
+* xref:plan/index.adoc[Project Plan Document]
+* xref:vision/index.adoc[Project Vision Document]
+* xref:ad/index.adoc[Architecture Document]
 
-DAT:
-source : https://github.com/bflorat/modele-da
+== Another sources
+
+* https://github.com/joelparkerhenderson/architecture-decision-record[ADR]
+* https://github.com/bflorat/modele-da[AD]
 
