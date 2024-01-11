@@ -1,0 +1,40 @@
+= ADR [ADR Number] - [Decision Name]
+
+== Status
+
+Indicate the current status of the decision.
+
+Status available :
+
+- `Drafted` : The document is initiated  [a new branch is created and dedicated for this ADR]
+- `Proposed` : The document is ready to be submitted for review, discussion and decision [a new commit is done in the new dedicated branch and a merge request is created to leverage comments for discussions]
+- `Accepted` : The document has been finalized, a decision has been made to accept the proposition [the branch is merge into main]
+- `Rejected` : The document has been finalized, a decision has been made to reject the proposition [the branch is merge into main]
+- `Dropped` : The document was finalized but in the meantime is not relevant anymore due to change in the context or even decommission of the solution or the document is no longer valid, used, or applicable. A decision has not been reached.
+- `Superseded by [ADR(s)]` : The documented was finalized but in the meantime is replaced by another ADR which challenges the existing decision and overrule the decision initially made [a new commit of the ADR is done on the new dedicated branch created as part of the creation of the ADR that this one is superseded by]
+
+== Context and Problem Statement
+
+Explain the architectural context or problem that necessitates a decision.
+
+== Decision Outcome
+
+Name the decision and provide a detailed explanation. Describe any alternative options considered and why this decision was chosen.
+
+== Consequences
+
+List the pros and cons of this decision. What are the potential impacts on the system or project as a whole?
+
+== Pros and Cons of the Options
+
+If applicable, provide a more in-depth justification for the decision. Why is this the best option among the alternatives?
+
+
+== References
+
+List any relevant references, documents, or sources of information.
+
+== Comments
+
+Any additional information or comments related to this decision can be added here.
+
