@@ -38,4 +38,7 @@ In such cases, consider alternative documentation methods to maintain clarity an
 
 == Template
 
-You can find an Architecture Document template [here](xref:template.adoc).
+You can find templates :
+
+* xref:software_template.adoc[Template for Software project].
+* xref:infra_template.adoc[Template for Infrastructure project].
