@@ -1,5 +1,4 @@
-= Technical Design Document (TDD)
-
+= Architecture Document Template
 :doctype: book
 
 == Component: User Management Microservice
