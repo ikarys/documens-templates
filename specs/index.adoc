@@ -45,3 +45,7 @@ The PRD is designed for a diverse audience, including:
 - **Stakeholders:** For comprehensive insights into the project's objectives, requirements, and constraints.
 
 - **Decision-Makers:** To support informed decision-making throughout the project lifecycle.
+
+== Template
+
+You can find a template xref:template.adoc[here].
