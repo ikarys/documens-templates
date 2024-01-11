@@ -1,0 +1,35 @@
+= Architecture Decision Record
+
+Architecture Decision Records (ADRs) are documents that record significant architectural decisions made during the design of a system. ADRs are used to document the reasons behind a decision, the alternatives considered, and the consequences of the decision.
+
+== Purpose 
+
+ADRs are useful for several reasons:
+
+- They allow documentation of significant architectural decisions made during the design of a system.
+- They facilitate communication among development team members.
+- They assist in maintaining architectural consistency.
+
+== When to Use an Architecture Decision Record
+
+An Architecture Decision Record (ADR) proves beneficial in various contexts:
+
+. **Critical Architectural Choices:** ADRs are valuable for documenting significant architectural decisions made during the design phase.
+
+. **Enhancing Team Communication:** When clear communication within the development team is essential, ADRs provide a structured way to convey the reasoning behind architectural decisions.
+
+. **Preserving Architectural Cohesion:** ADRs play a role in maintaining consistency within the architecture, serving as a reference for adhering to established principles.
+
+Utilize ADRs in these situations to improve collaboration, document crucial decisions, and uphold architectural integrity.
+
+== When Not to Use an Architecture Decision Record
+
+While Architecture Decision Records (ADRs) are powerful tools, they may not be the most suitable in certain situations:
+
+. **Project Descriptions:** ADRs are not intended for outlining overall project details. Instead, they are best suited for documenting specific and highly technical decisions within a project.
+
+. **Non-Technical Matters:** ADRs are designed for capturing technical decisions. Avoid using them for non-technical aspects or general project information.
+
+. **Minor Implementation Choices:** If a decision is relatively minor and doesn't significantly impact the overall architecture, using an ADR might be unnecessary.
+
+In such cases, consider alternative documentation methods to avoid unnecessary complexity and ensure that ADRs are reserved for the appropriate technical decision-making scenarios.
