@@ -33,3 +33,7 @@ While Architecture Decision Records (ADRs) are powerful tools, they may not be t
 . **Minor Implementation Choices:** If a decision is relatively minor and doesn't significantly impact the overall architecture, using an ADR might be unnecessary.
 
 In such cases, consider alternative documentation methods to avoid unnecessary complexity and ensure that ADRs are reserved for the appropriate technical decision-making scenarios.
+
+== Template
+
+You can find an ADR template xref:template.adoc[here].
