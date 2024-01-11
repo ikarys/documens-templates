@@ -1,0 +1,54 @@
+= Technical Design Document (TDD)
+
+:doctype: book
+
+== Component: User Management Microservice
+
+=== Objective
+The user management microservice handles user-related functionalities such as registration, login, and profile management.
+
+=== Technologies Used
+- Language: Python 3.8
+- Framework: Flask
+- Database: MySQL
+- Authentication System: OAuth2
+
+=== Architecture
+
+==== Endpoints
+1. `POST /users/register`: Registers a new user.
+   - Receives user data, validates it, and stores it in the database.
+
+2. `POST /users/login`: Authenticates an existing user.
+   - Verifies credentials and generates an access token.
+
+3. `GET /users/profile`: Retrieves the profile of the currently authenticated user.
+   - Uses the access token to validate the user's identity.
+
+==== Database
+- "users" table storing user information (id, name, email, hashed password, etc.).
+
+=== Data Flow
+
+1. **User Registration:**
+   - Input data: Name, email, password.
+   - Processing: Data validation, password hashing, insertion into the database.
+
+2. **User Login:**
+   - Input data: Email, password.
+   - Processing: Verification of credentials, generation of access token.
+
+3. **Profile Retrieval:**
+   - Input data: Access token.
+   - Processing: Token validation, retrieval of user information.
+
+=== Security
+- Use of OAuth2 for secure authentication.
+- Secure storage of passwords with hashing.
+
+=== Scalability
+- Horizontal scalability achieved through microservices design.
+
+=== Points of Caution
+- Error handling to ensure a robust user experience.
+- Performance monitoring to maintain optimal response times.
