@@ -38,4 +38,7 @@ In such cases, consider alternative documentation methods to maintain clarity an
 
 == Template
 
-You can find a TAD template xref:template.adoc[here].
+You can find a TAD templates
+
+* xref:tad/software_template.adoc[Template for Software project].
+* xref:tad/infra_template.adoc[Template for Infrastructure project].
