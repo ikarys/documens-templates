@@ -1,0 +1,41 @@
+= Technical Architecture Document (TAD)
+
+The Technical Architecture Document (TAD) is a comprehensive document that outlines the technical architecture of a system or project. It provides detailed insights into the technical choices, components, and their interactions, offering a holistic view of the technical landscape.
+
+== Purpose
+
+The TAD serves several essential purposes:
+
+- **Technical Overview:** It offers a detailed technical overview of a system, highlighting its key architectural components and structures.
+
+- **Communication Aid:** The TAD aids in effective communication among development team members, ensuring a shared understanding of the technical architecture.
+
+- **Reference for Decision-Making:** It serves as a reference for making informed decisions regarding technical aspects during the development lifecycle.
+
+== When to use a TAD
+
+The Technical Architecture Document is particularly valuable in the following contexts:
+
+. **System Architecture Overview:** Use the TAD to provide a comprehensive overview of the system's technical architecture.
+
+. **Collaborative Development:** When collaboration among team members is crucial, the TAD facilitates a shared understanding of the technical landscape.
+
+. **Decision Support:** Utilize the TAD as a reference for decision-making related to technical components and their interactions.
+
+Leverage the TAD in these scenarios to enhance collaboration, provide clarity on technical architecture, and support informed decision-making.
+
+== When NOT to use a TAD
+
+While the Technical Architecture Document is a powerful tool, there are instances where it may not be the most suitable:
+
+. **Detailed Project Descriptions:** The TAD is not designed to outline overall project details; its focus is on the technical architecture specifics.
+
+. **Non-Technical Aspects:** Avoid using the TAD for documenting non-technical aspects or general project information.
+
+. **Minor Implementation Choices:** If a decision is relatively minor and doesn't significantly impact the overall technical architecture, a detailed TAD may be unnecessary.
+
+In such cases, consider alternative documentation methods to maintain clarity and ensure that the TAD is reserved for providing in-depth insights into the technical aspects of the system.
+
+== Template
+
+You can find a TAD template xref:template.adoc[here].
