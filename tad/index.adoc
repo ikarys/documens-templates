@@ -40,5 +40,5 @@ In such cases, consider alternative documentation methods to maintain clarity an
 
 You can find a TAD templates
 
-* xref:tad/software_template.adoc[Template for Software project].
-* xref:tad/infra_template.adoc[Template for Infrastructure project].
+* xref:software_template.adoc[Template for Software project].
+* xref:infra_template.adoc[Template for Infrastructure project].
