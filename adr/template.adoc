@@ -1,4 +1,4 @@
-= ADR [ADR Number] - [Decision Name]
+= ADR[ADR Number](-productName optional) - [Decision Name]
 
 == Status
 
