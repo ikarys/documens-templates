@@ -1,3 +1,5 @@
+[source,adoc]
+----
 = ADR[ADR Number](-productName optional) - [Decision Name]
 
 == Status
@@ -37,4 +39,4 @@ List any relevant references, documents, or sources of information.
 == Comments
 
 Any additional information or comments related to this decision can be added here.
-
+----
