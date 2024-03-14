@@ -1,3 +1,5 @@
+[source,adoc]
+----
 = Technical Architecture Document (TAD)
 
 == Document Overview
@@ -45,3 +47,4 @@ This document describes the technical architecture of the [Project Name] project
  Notes:
  - Make sure to customize this template according to the specific requirements of your project.
  - Don't forget to add project-specific details in each section.
+----

@@ -1,3 +1,5 @@
+[source,adoc]
+----
 = Technical Architecture Document (TAD)
 
 == Document Overview
@@ -57,3 +59,4 @@ This document outlines the cloud infrastructure architecture for the [Project Na
 Notes:
 - Customize this template based on the specific requirements and cloud providers used in your project.
 - Include project-specific details in each section to accurately represent your cloud infrastructure architecture.
+----
