@@ -19,16 +19,6 @@ Each document type is stored in a dedicated folder. You can browse the folders t
 
 We welcome contributions from the community! If you have additional document templates to share or improvements to make to existing templates, please submit a pull request. Be sure to follow the contribution guidelines outlined in the CONTRIBUTING.md file.
 
-
-== Documents
-
-* xref:adr/index.adoc[Architecture Decision Record]
-* xref:tad/index.adoc[Technical Architecture Document]
-* xref:specs/index.adoc[Specifications Document]
-* xref:plan/index.adoc[Project Plan Document]
-* xref:vision/index.adoc[Project Vision Document]
-* xref:ad/index.adoc[Architecture Document]
-
 == Another sources
 
 * https://github.com/joelparkerhenderson/architecture-decision-record[ADR]
